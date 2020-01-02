@@ -1,0 +1,1066 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <script  src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/css.css">
+    <link href="./css/jquery.bxslider.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <header class="black">
+        <div class="brand">
+            <ul>
+                <li>
+                    <a href="https://topten.topten10mall.com/kr/front/viewMain.do">
+                        <img src="./images/spr_brand_ssts.png" alt="">
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                            ZIOZIA
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        AND Z
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        OLZEN
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        EDITION
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        MALE24365
+                    </a>
+                </li>
+                <li>
+                    <a href="" class="on">
+                        TOPTEN10
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        POLHAM
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        PROJECT M
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        TOPTEN KIDS
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        POLHAM KIDS
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        EX202
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="inner_header">
+            <div class="inner">
+                <a href="https://topten.topten10mall.com/kr/front/viewMain.do">TOPTEN</a>
+                <div class="search">
+                    <div class="sch-engine">
+                        <input type="text" id="searchword" placeholder="검색어를 입력하세요.">
+                        <button type="button" id="btn_sch">
+                            search
+                        </button>
+                    </div>
+                </div>
+                <!--//search-->
+            </div>
+            <div class="gnb">
+                <nav onmouseover="gnb()" onmouseleave="gnbout()">
+                    <ul>
+                        <li>
+                            <a href="">TOP SALE</a>
+                            <ul class="sub_gnb">
+                                <li>
+                                    <a href="">1+1</a>
+                                </li>
+                                <li>
+                                    <a href="">기간한정</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="">신상품</a>
+                            <ul class="sub_gnb">
+                                <li>
+                                    <a href="">NEW ARRIVALS</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="">남성의류</a>
+                            <ul class="sub_gnb">
+                                <li>
+                                    <a href="">아우터</a>
+                                </li>
+                                <li>
+                                    <a href="">상의</a>
+                                </li>
+                                <li>
+                                    <a href="">하의</a>
+                                </li>
+                                <li>
+                                    <a href="">정장</a>
+                                </li>
+                                <li>
+                                    <a href="">악세사리</a>
+                                </li>
+                                <li>
+                                    <a href="">스윔웨어</a>
+                                </li>
+                                <li>
+                                    <a href="">이너웨어</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="">여성의류</a>
+                            <ul class="sub_gnb">
+                                <li>
+                                    <a href="">아우터</a>
+                                </li>
+                                <li>
+                                    <a href="">상의</a>
+                                </li>
+                                <li>
+                                    <a href="">하의</a>
+                                </li>
+                                <li>
+                                    <a href="">정장</a>
+                                </li>
+                                <li>
+                                    <a href="">악세사리</a>
+                                </li>
+                                <li>
+                                    <a href="">스윔웨어</a>
+                                </li>
+                                <li>
+                                    <a href="">이너웨어</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="">아울렛</a>
+                            <ul class="sub_gnb">
+                                <li>
+                                    <a href="">남성의류</a>
+                                </li>
+                                <li>
+                                    <a href="">여성의류</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="">매거진</a>
+                            <ul class="sub_gnb">
+                                <li>
+                                    <a href="">뉴스</a>
+                                </li>
+                                <li>
+                                    <a href="">룩북</a>
+                                </li>
+                                <li>
+                                    <a href="">스타일</a>
+                                </li>
+                                <li>
+                                    <a href="">인스타그램</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="">이벤트</a>
+                            <ul class="sub_gnb">
+                                <li>
+                                    <a href="">기획전</a>
+                                </li>
+                                <li>
+                                    <a href="">이벤트</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="">ABOUT</a>
+                            <ul class="sub_gnb">
+                                <li>
+                                    <a href="">BRAND</a>
+                                </li>
+                                <li>
+                                    <a href="">STORE</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+                <ul class="until">
+                    <li>
+                        <a href="#">LOGIN</a>
+                    </li>
+                    <li class="cart">
+                        <a href="#">CART</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <section class="main_visual">
+            <ul>
+                <li>
+                    <a href="">
+                        <img src="./images/1577346501400.jpg" alt="">
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <img src="./images/1564459449428.jpg" alt="">
+                    </a>
+                </li>
+            </ul>
+            <div class="controls">
+                <a href="">prev</a>
+                <a href="">next</a>
+            </div>
+            <div class="controls_page">
+                <a href="" class="active">1</a>
+                <a href="">2</a>
+            </div>
+        </section>
+        <section class="main_suggest">
+            <div>
+                <img src="./images/suggest_left.jpg" alt="">
+                <div class="suggest">
+                    <div class="tit">
+                        <h1>
+                            더 따듯한 경량패딩
+                        </h1>
+                        <span>
+                            1장 29,900원~
+                        </span>
+                    </div>
+                    <div class="thumbnail">
+                        <ul>
+                            <li>
+                                <div class="info-img">
+                                    <a href="#">
+                                        <img src="./images/MSZ7.jpg" alt="웅앵웅">
+                                    </a>
+                                </div>
+                                <div class="salearea">
+                                    <div class="sale">
+                                        <span>44</span>%
+                                    </div>
+                                </div>
+                                <div class="info">
+                                    <div class="txt">
+                                        <a href="">
+                                            <span>
+                                                남성) 리얼구스 하이넥 경량 점퍼 (G80/20) (NVP)
+                                            </span>
+                                        </a>
+                                        <div class="price">
+                                            <span class="p_x">89,000</span>
+                                            <span class="p_o">59,900</span>
+                                        </div>
+                                        <div class="type">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="hidden_info">
+                                    <div class="size_chip">
+                                        <a href="#none" class="s_chip">95</a>
+                                        <a href="#none" class="s_chip none">100</a>
+                                        <a href="#none" class="s_chip">105</a>
+                                        <a href="#none" class="s_chip none">110</a>
+                                    </div>
+                                    <div class="color_chip">
+                                        <a href="#none" class="c_chip" style="background:#000;"></a>
+                                        <a href="#none" class="c_chip" style="background:#3ddedd;"></a>
+                                        <a href="#none" class="c_chip" style="background:#3ddedd;"></a>
+                                        <a href="#none" class="c_chip" style="background:#3ddedd;"></a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="info-img">
+                                    <a href="#">
+                                        <img src="./images/MSZ8.jpg" alt="웅앵웅">
+                                        <img src="./images/MSZ8_on.jpg" alt="웅앵웅" class="hidden">
+                                    </a>
+                                </div>
+                                <div class="salearea">
+                                    <div class="sale">
+                                        <span>44</span>%
+                                    </div>
+                                </div>
+                                <div class="info">
+                                    <div class="txt">
+                                        <a href="">
+                                            <span>
+                                                여성) 리얼구스 크루넥 경량 베스트 (G80/20) (DKH)
+                                            </span>
+                                        </a>
+                                        <div class="price">
+                                            <span class="p_x">59,900</span>
+                                            <span class="p_o">39,900</span>
+                                        </div>
+                                        <div class="type">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="hidden_info">
+                                    <div class="size_chip">
+                                        <a href="" class="s_chip">95</a>
+                                        <a href="#none" class="s_chip none">100</a>
+                                        <a href="#none" class="s_chip none">105</a>
+                                        <a href="#none" class="s_chip none">110</a>
+                                    </div>
+                                    <div class="color_chip">
+                                        <a href="#none" class="c_chip" style="background:#000;"></a>
+                                        <a href="#none" class="c_chip" style="background:#3ddedd;"></a>
+                                        <a href="#none" class="c_chip" style="background:#3ddedd;"></a>
+                                        <a href="#none" class="c_chip" style="background:#3ddedd;"></a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="info-img">
+                                    <a href="#">
+                                        <img src="./images/MSZ9.jpg" alt="웅앵웅">
+                                        <img src="./images/MSZ9_on.jpg" alt="웅앵웅" class="hidden">
+                                    </a>
+                                </div>
+                                <div class="salearea">
+                                    <div class="sale">
+                                        <span>44</span>%
+                                    </div>
+                                </div>
+                                <div class="info">
+                                    <div class="txt">
+                                        <a href="">
+                                            <span>
+                                                여성) 리얼구스 하이넥 경량 점퍼 (G80/20) (DCO)
+                                            </span>
+                                        </a>
+                                        <div class="price">
+                                            <span class="p_o">59,900</span>
+                                        </div>
+                                        <div class="type">
+                                            <i>SOLD OUT</i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="hidden_info">
+                                    <div class="size_chip">
+                                        <a href="#none" class="s_chip none">95</a>
+                                        <a href="#none" class="s_chip none">100</a>
+                                        <a href="#none" class="s_chip none">105</a>
+                                        <a href="#none" class="s_chip none">110</a>
+                                    </div>
+                                    <div class="color_chip">
+                                        <a href="#none" class="c_chip" style="background:#000;"></a>
+                                        <a href="#none" class="c_chip" style="background:#3ddedd;"></a>
+                                        <a href="#none" class="c_chip" style="background:#3ddedd;"></a>
+                                        <a href="#none" class="c_chip" style="background:#3ddedd;"></a>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <img src="./images/suggest_right.jpg" alt="">
+                <div class="suggest">
+                    <div class="tit">
+                        <h1>
+                            천연보습 발열내의 '온에어'
+                        </h1>
+                        <span>
+                            1장 7,900원
+                        </span>
+                    </div>
+                    <div class="thumbnail">
+                        <ul>
+                            <li>
+                                <div class="info-img">
+                                    <a href="#">
+                                        <img src="./images/MSZ4.jpg" alt="웅앵웅">
+                                    </a>
+                                </div>
+                                <div class="salearea">
+                                    <div class="sale">
+                                        <span>44</span>%
+                                    </div>
+                                </div>
+                                <div class="info">
+                                    <div class="txt">
+                                        <a href="">
+                                            <span>
+                                                남성)온에어 모달코튼 터틀넥 긴팔 티셔츠(OWT)
+                                            </span>
+                                        </a>
+                                        <div class="price">
+                                            <span class="p_o">7,900</span>
+                                        </div>
+                                        <div class="type">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="hidden_info">
+                                    <div class="size_chip">
+                                        <a href="#none" class="s_chip none">95</a>
+                                        <a href="#none" class="s_chip none">100</a>
+                                        <a href="#none" class="s_chip none">105</a>
+                                        <a href="#none" class="s_chip none">110</a>
+                                    </div>
+                                    <div class="color_chip">
+                                        <a href="#none" class="c_chip" style="background:#000;"></a>
+                                        <a href="#none" class="c_chip" style="background:#3ddedd;"></a>
+                                        <a href="#none" class="c_chip" style="background:#3ddedd;"></a>
+                                        <a href="#none" class="c_chip" style="background:#3ddedd;"></a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="info-img">
+                                    <a href="#">
+                                        <img src="./images/MSZ5.jpg" alt="웅앵웅">
+                                    </a>
+                                </div>
+                                <div class="salearea">
+                                    <div class="sale">
+                                        <span>44</span>%
+                                    </div>
+                                </div>
+                                <div class="info">
+                                    <div class="txt">
+                                        <a href="">
+                                            <span>
+                                                여성)온에어 모달코튼 터틀넥 긴팔 티셔츠(BK)
+                                            </span>
+                                        </a>
+                                        <div class="price">
+                                            <span class="p_o">7,900</span>
+                                        </div>
+                                        <div class="type">
+                                            <i>SOLD OUT</i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="hidden_info">
+                                    <div class="size_chip">
+                                        <a href="#none" class="s_chip none">95</a>
+                                        <a href="#none" class="s_chip none">100</a>
+                                        <a href="#none" class="s_chip none">105</a>
+                                        <a href="#none" class="s_chip none">110</a>
+                                    </div>
+                                    <div class="color_chip">
+                                        <a href="#none" class="c_chip" style="background:#000;"></a>
+                                        <a href="#none" class="c_chip" style="background:#3ddedd;"></a>
+                                        <a href="#none" class="c_chip" style="background:#3ddedd;"></a>
+                                        <a href="#none" class="c_chip" style="background:#3ddedd;"></a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="info-img">
+                                    <a href="#">
+                                        <img src="./images/MSZ6.jpg" alt="웅앵웅">
+                                        <img src="./images/MSZ6_on.jpg" alt="웅앵웅" class="hidden">
+                                    </a>
+                                </div>
+                                <div class="salearea">
+                                    <div class="sale">
+                                        <span>44</span>%
+                                    </div>
+                                </div>
+                                <div class="info">
+                                    <div class="txt">
+                                        <a href="">
+                                            <span>
+                                                여성)온에어 모달코튼 터틀넥 긴팔 티셔츠(BK)
+                                            </span>
+                                        </a>
+                                        <div class="price">
+                                            <span class="p_x">14,500</span>
+                                            <span class="p_o">7,900</span>
+                                        </div>
+                                        <div class="type">
+                                            <i>SOLD OUT</i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="hidden_info">
+                                    <div class="size_chip">
+                                        <a href="#none" class="s_chip none">95</a>
+                                        <a href="#none" class="s_chip none">100</a>
+                                        <a href="#none" class="s_chip none">105</a>
+                                        <a href="#none" class="s_chip none">110</a>
+                                    </div>
+                                    <div class="color_chip">
+                                        <a href="#none" class="c_chip" style="background:#000;"></a>
+                                        <a href="#none" class="c_chip" style="background:#3ddedd;"></a>
+                                        <a href="#none" class="c_chip" style="background:#3ddedd;"></a>
+                                        <a href="#none" class="c_chip" style="background:#3ddedd;"></a>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--//subvisual-->
+        <section class="event_banner">
+            <div class="banner">
+                <a href="">
+                    <img src="./images/1570691073002.jpg" alt="">
+                </a>
+            </div>
+        </section>
+        <!--//longbanner-->
+        <section class="mdpick">
+            <div class="mdwrap">
+                <div class="title">
+                    <span>MD'S PICK</span>
+                </div>
+                <div class="tab">
+                    <ul>
+                        <li>
+                            <a href="#none" onclick="tab()">
+                                MAN
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#none" class="on" onclick="tab2()">
+                                WOMAN
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="thumbnail-list">
+                    <ul>
+                        <li>
+                            <a href="">
+                                <img src="./images/ER18.jpg" alt="">
+                                <img src="./images/ER18_on.jpg" alt="" class="hidden">
+                            </a>
+                            <div class="salearea">
+                                <div class="sale">
+                                    <span>44</span>%
+                                </div>
+                            </div>
+                            <div class="mdinfo">
+                                <div class="txt">
+                                    <a href="">
+                                        <span>
+                                            여성) 플러피플리스 하이넥 집업 (GR)
+                                        </span>
+                                    </a>
+                                    <div class="price">
+                                        <span class="p_x">29,900</span>
+                                        <span class="p_o">19,900</span>
+                                    </div>
+                                    <div class="type">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="hidden_mdinfo">
+                                <div class="size_chip">
+                                    <a href="#none" class="s_chip none">95</a>
+                                    <a href="#none" class="s_chip none">100</a>
+                                    <a href="#none" class="s_chip none">105</a>
+                                    <a href="#none" class="s_chip none">110</a>
+                                </div>
+                                <div class="color_chip">
+                                    <a href="#none" class="c_chip" style="background:#000;"></a>
+                                    <a href="#none" class="c_chip" style="background:#3ddedd;"></a>
+                                    <a href="#none" class="c_chip" style="background:#3ddedd;"></a>
+                                    <a href="#none" class="c_chip" style="background:#3ddedd;"></a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="./images/ER18.jpg" alt="">
+                                <img src="./images/ER18_on.jpg" alt="" class="hidden">
+                            </a>
+                            <div class="salearea">
+                                <div class="sale">
+                                    <span>44</span>%
+                                </div>
+                            </div>
+                            <div class="mdinfo">
+                                <div class="txt">
+                                    <a href="">
+                                        <span>
+                                            여성) 플러피플리스 하이넥 집업 (GR)
+                                        </span>
+                                    </a>
+                                    <div class="price">
+                                        <span class="p_x">29,900</span>
+                                        <span class="p_o">19,900</span>
+                                    </div>
+                                    <div class="type">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="hidden_mdinfo">
+                                <div class="size_chip">
+                                    <a href="#none" class="s_chip none">95</a>
+                                    <a href="#none" class="s_chip none">100</a>
+                                    <a href="#none" class="s_chip none">105</a>
+                                    <a href="#none" class="s_chip none">110</a>
+                                </div>
+                                <div class="color_chip">
+                                    <a href="#none" class="c_chip" style="background:#000;"></a>
+                                    <a href="#none" class="c_chip" style="background:#3ddedd;"></a>
+                                    <a href="#none" class="c_chip" style="background:#3ddedd;"></a>
+                                    <a href="#none" class="c_chip" style="background:#3ddedd;"></a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="./images/ER18.jpg" alt="">
+                                <img src="./images/ER18_on.jpg" alt="" class="hidden">
+                            </a>
+                            <div class="salearea">
+                                <div class="sale">
+                                    <span>44</span>%
+                                </div>
+                            </div>
+                            <div class="mdinfo">
+                                <div class="txt">
+                                    <a href="">
+                                        <span>
+                                            여성) 플러피플리스 하이넥 집업 (GR)
+                                        </span>
+                                    </a>
+                                    <div class="price">
+                                        <span class="p_x">29,900</span>
+                                        <span class="p_o">19,900</span>
+                                    </div>
+                                    <div class="type">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="hidden_mdinfo">
+                                <div class="size_chip">
+                                    <a href="#none" class="s_chip none">95</a>
+                                    <a href="#none" class="s_chip none">100</a>
+                                    <a href="#none" class="s_chip none">105</a>
+                                    <a href="#none" class="s_chip none">110</a>
+                                </div>
+                                <div class="color_chip">
+                                    <a href="#none" class="c_chip" style="background:#000;"></a>
+                                    <a href="#none" class="c_chip" style="background:#3ddedd;"></a>
+                                    <a href="#none" class="c_chip" style="background:#3ddedd;"></a>
+                                    <a href="#none" class="c_chip" style="background:#3ddedd;"></a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="./images/ER18.jpg" alt="">
+                                <img src="./images/ER18_on.jpg" alt="" class="hidden">
+                            </a>
+                            <div class="salearea">
+                                <div class="sale">
+                                    <span>44</span>%
+                                </div>
+                            </div>
+                            <div class="mdinfo">
+                                <div class="txt">
+                                    <a href="">
+                                        <span>
+                                            여성) 플러피플리스 하이넥 집업 (GR)
+                                        </span>
+                                    </a>
+                                    <div class="price">
+                                        <span class="p_x">29,900</span>
+                                        <span class="p_o">19,900</span>
+                                    </div>
+                                    <div class="type">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="hidden_mdinfo">
+                                <div class="size_chip">
+                                    <a href="#none" class="s_chip none">95</a>
+                                    <a href="#none" class="s_chip none">100</a>
+                                    <a href="#none" class="s_chip none">105</a>
+                                    <a href="#none" class="s_chip none">110</a>
+                                </div>
+                                <div class="color_chip">
+                                    <a href="#none" class="c_chip" style="background:#000;"></a>
+                                    <a href="#none" class="c_chip" style="background:#3ddedd;"></a>
+                                    <a href="#none" class="c_chip" style="background:#3ddedd;"></a>
+                                    <a href="#none" class="c_chip" style="background:#3ddedd;"></a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="./images/ER18.jpg" alt="">
+                                <img src="./images/ER18_on.jpg" alt="" class="hidden">
+                            </a>
+                            <div class="salearea">
+                                <div class="sale">
+                                    <span>44</span>%
+                                </div>
+                            </div>
+                            <div class="mdinfo">
+                                <div class="txt">
+                                    <a href="">
+                                        <span>
+                                            여성) 플러피플리스 하이넥 집업 (GR)
+                                        </span>
+                                    </a>
+                                    <div class="price">
+                                        <span class="p_x">29,900</span>
+                                        <span class="p_o">19,900</span>
+                                    </div>
+                                    <div class="type">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="hidden_mdinfo">
+                                <div class="size_chip">
+                                    <a href="#none" class="s_chip none">95</a>
+                                    <a href="#none" class="s_chip none">100</a>
+                                    <a href="#none" class="s_chip none">105</a>
+                                    <a href="#none" class="s_chip none">110</a>
+                                </div>
+                                <div class="color_chip">
+                                    <a href="#none" class="c_chip" style="background:#000;"></a>
+                                    <a href="#none" class="c_chip" style="background:#3ddedd;"></a>
+                                    <a href="#none" class="c_chip" style="background:#3ddedd;"></a>
+                                    <a href="#none" class="c_chip" style="background:#3ddedd;"></a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="./images/ER19.jpg" alt="">
+                                <img src="./images/ER19_on.jpg" alt="" class="hidden">
+                            </a>
+                            <div class="salearea">
+                                <div class="sale">
+                                    <span>25</span>%
+                                </div>
+                            </div>
+                            <div class="mdinfo">
+                                <div class="txt">
+                                    <a href="">
+                                        <span>
+                                            남성) 울혼방 플레인라운드 풀오버 (HNV)
+                                        </span>
+                                    </a>
+                                    <div class="price">
+                                        <span class="p_x">39,000</span>
+                                        <span class="p_o">29,900</span>
+                                    </div>
+                                    <div class="type">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="hidden_mdinfo">
+                                <div class="size_chip">
+                                    <a href="#none" class="s_chip none">95</a>
+                                    <a href="#none" class="s_chip none">100</a>
+                                    <a href="#none" class="s_chip none">105</a>
+                                    <a href="#none" class="s_chip none">110</a>
+                                </div>
+                                <div class="color_chip">
+                                    <a href="#none" class="c_chip" style="background:#000;"></a>
+                                    <a href="#none" class="c_chip" style="background:#3ddedd;"></a>
+                                    <a href="#none" class="c_chip" style="background:#3ddedd;"></a>
+                                    <a href="#none" class="c_chip" style="background:#3ddedd;"></a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="./images/ER19.jpg" alt="">
+                                <img src="./images/ER19_on.jpg" alt="" class="hidden">
+                            </a>
+                            <div class="salearea">
+                                <div class="sale">
+                                    <span>25</span>%
+                                </div>
+                            </div>
+                            <div class="mdinfo">
+                                <div class="txt">
+                                    <a href="">
+                                        <span>
+                                            남성) 울혼방 플레인라운드 풀오버 (HNV)
+                                        </span>
+                                    </a>
+                                    <div class="price">
+                                        <span class="p_x">39,000</span>
+                                        <span class="p_o">29,900</span>
+                                    </div>
+                                    <div class="type">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="hidden_mdinfo">
+                                <div class="size_chip">
+                                    <a href="#none" class="s_chip none">95</a>
+                                    <a href="#none" class="s_chip none">100</a>
+                                    <a href="#none" class="s_chip none">105</a>
+                                    <a href="#none" class="s_chip none">110</a>
+                                </div>
+                                <div class="color_chip">
+                                    <a href="#none" class="c_chip" style="background:#000;"></a>
+                                    <a href="#none" class="c_chip" style="background:#3ddedd;"></a>
+                                    <a href="#none" class="c_chip" style="background:#3ddedd;"></a>
+                                    <a href="#none" class="c_chip" style="background:#3ddedd;"></a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="./images/ER19.jpg" alt="">
+                                <img src="./images/ER19_on.jpg" alt="" class="hidden">
+                            </a>
+                            <div class="salearea">
+                                <div class="sale">
+                                    <span>25</span>%
+                                </div>
+                            </div>
+                            <div class="mdinfo">
+                                <div class="txt">
+                                    <a href="">
+                                        <span>
+                                            남성) 울혼방 플레인라운드 풀오버 (HNV)
+                                        </span>
+                                    </a>
+                                    <div class="price">
+                                        <span class="p_x">39,000</span>
+                                        <span class="p_o">29,900</span>
+                                    </div>
+                                    <div class="type">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="hidden_mdinfo">
+                                <div class="size_chip">
+                                    <a href="#none" class="s_chip none">95</a>
+                                    <a href="#none" class="s_chip none">100</a>
+                                    <a href="#none" class="s_chip none">105</a>
+                                    <a href="#none" class="s_chip none">110</a>
+                                </div>
+                                <div class="color_chip">
+                                    <a href="#none" class="c_chip" style="background:#000;"></a>
+                                    <a href="#none" class="c_chip" style="background:#3ddedd;"></a>
+                                    <a href="#none" class="c_chip" style="background:#3ddedd;"></a>
+                                    <a href="#none" class="c_chip" style="background:#3ddedd;"></a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="./images/ER19.jpg" alt="">
+                                <img src="./images/ER19_on.jpg" alt="" class="hidden">
+                            </a>
+                            <div class="salearea">
+                                <div class="sale">
+                                    <span>25</span>%
+                                </div>
+                            </div>
+                            <div class="mdinfo">
+                                <div class="txt">
+                                    <a href="">
+                                        <span>
+                                            남성) 울혼방 플레인라운드 풀오버 (HNV)
+                                        </span>
+                                    </a>
+                                    <div class="price">
+                                        <span class="p_x">39,000</span>
+                                        <span class="p_o">29,900</span>
+                                    </div>
+                                    <div class="type">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="hidden_mdinfo">
+                                <div class="size_chip">
+                                    <a href="#none" class="s_chip none">95</a>
+                                    <a href="#none" class="s_chip none">100</a>
+                                    <a href="#none" class="s_chip none">105</a>
+                                    <a href="#none" class="s_chip none">110</a>
+                                </div>
+                                <div class="color_chip">
+                                    <a href="#none" class="c_chip" style="background:#000;"></a>
+                                    <a href="#none" class="c_chip" style="background:#3ddedd;"></a>
+                                    <a href="#none" class="c_chip" style="background:#3ddedd;"></a>
+                                    <a href="#none" class="c_chip" style="background:#3ddedd;"></a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="./images/ER19.jpg" alt="">
+                                <img src="./images/ER19_on.jpg" alt="" class="hidden">
+                            </a>
+                            <div class="salearea">
+                                <div class="sale">
+                                    <span>25</span>%
+                                </div>
+                            </div>
+                            <div class="mdinfo">
+                                <div class="txt">
+                                    <a href="">
+                                        <span>
+                                            남성) 울혼방 플레인라운드 풀오버 (HNV)
+                                        </span>
+                                    </a>
+                                    <div class="price">
+                                        <span class="p_x">39,000</span>
+                                        <span class="p_o">29,900</span>
+                                    </div>
+                                    <div class="type">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="hidden_mdinfo">
+                                <div class="size_chip">
+                                    <a href="#none" class="s_chip none">95</a>
+                                    <a href="#none" class="s_chip none">100</a>
+                                    <a href="#none" class="s_chip none">105</a>
+                                    <a href="#none" class="s_chip none">110</a>
+                                </div>
+                                <div class="color_chip">
+                                    <a href="#none" class="c_chip" style="background:#000;"></a>
+                                    <a href="#none" class="c_chip" style="background:#3ddedd;"></a>
+                                    <a href="#none" class="c_chip" style="background:#3ddedd;"></a>
+                                    <a href="#none" class="c_chip" style="background:#3ddedd;"></a>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <!--//mdpick-->
+        <section class="main_video">
+            <div class="title">
+                <span>SEASON CONCEPT</span>
+            </div>
+            <h2>
+                이덕화가 낚고 싶었던 그것! 천연보습 발열내의 '온에어'
+            </h2>
+            <div class="video">
+                <div class="youtube_video">
+                    <iframe src="https://www.youtube.com/embed/nAdqIz-IGHA?ecver=2&amp;controls=0&amp;showinfo=0&amp;rel=0&amp;autohide=0&amp;wmode=opaque&amp;vq=hd1080&amp;enablejsapi=1" width="1200" height="674" frameborder="0" allowfullscreen="" id="ytplayer"></iframe>
+                </div>
+                <a href="#none">
+                    <span class="vod_btn">play</span>
+                </a>
+            </div>
+        </section>
+        <!--//video-->
+        <section class="instar">
+            <div class="title">
+                <span>INSTARGRAM</span>
+            </div>
+            <a href="">
+                 @topten10_official
+            </a>
+        </section>
+        <!--//sns-->
+        <div class="more">
+            <a href="#none">MORE</a>
+        </div>
+        <!--//more-->
+    </div>
+    <footer>
+         <div class="inner">
+             <div class="link">
+                 <a href="">고객센터</a>
+                 <a href="">매장안내</a>
+                 <a href="">이용약관</a>
+                 <a href="">개인정보처리방침</a>
+             </div>
+             <div class="top10info">
+                 <h3>topten10</h3>
+                 <p>
+                    신성통상(주) / 대표자 : 황대규
+                    <br>
+                    주소 : 서울 강동구 풍성로63길 84 신성빌딩 / 대표전화 : 1600-3424
+                    <br>
+                    <strong>물류반품 주소 : 경기 양주시 평화로 1837 탑텐몰 덕정물류센터</strong>
+                    <br>
+                    통신판매업 신고번호 : 2015-서울강동-1890 / 사업자등록번호 : 104-81-01106 <a href="">사업자 정보확인</a>
+                 </p>
+                 <p class="copy">
+                    © 2018 TOPTEN MALL. ALL RIGHTS RESERVED
+                 </p>
+             </div>
+             <div class="sns">
+                 <ul>
+                     <li>
+                         소셜미디어
+                     </li>
+                     <li>
+                         <a href="" class="facebook"></a>
+                     </li>
+                     <li>
+                        <a href="" class="instargram">instargram</a>
+                     </li>
+                     <li>
+                        <a href="" class="youtube">youtube</a>
+                     </li>
+                 </ul>
+             </div>
+         </div>
+         <!--quickmenu-->
+         <div class="quick">
+             <a href="" class="happytalk"></a>
+             <button>TOP</button>
+         </div> 
+    </footer>
+    <script src="./js/script.js"></script>
+    <!-- bxSlider Javascript file -->
+    <script src="jquery.bxslider.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('.bxslider').bxSlider({
+                mode: 'horizontal',
+                moveSlides: 1,
+                slideMargin: 40,
+                infiniteLoop: true,
+                slideWidth: 660,
+                minSlides: 3,
+                maxSlides: 3,
+                speed: 800,
+            });
+        });
+    </script>
+</body>
+</html>
