@@ -211,6 +211,20 @@ ul.sub_gnb li{
     overflow: hidden;
 }
 
+.main_visual>ul{
+    width:3840px;
+    height:100%;
+}
+
+.main_visual>ul>li{
+    float:left;
+}
+
+.main_visual>ul>li>a>img{
+    width:100%;
+    height:100%;
+}
+
 .controls{
     position: absolute;
     top:50%;
